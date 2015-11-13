@@ -16,3 +16,13 @@
 .col-mg-10 {
 	margin: 10px !important;
 }
+.row-no-mg {
+	margin: 0 !important;
+}
+.row-mg-5 {
+	margin-left: 5px !important;
+	margin-right: 5px !important;
+}
+.row-mg-10 {
+	margin: 10px !important;
+}

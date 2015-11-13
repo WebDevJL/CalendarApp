@@ -1,7 +1,10 @@
-header {
+header,
+.menu-item > i {
 	line-height: 40px;
-	background-color: #cef;
 }
 header.brand {
 		padding-left: 10px;
+}
+.menu-item > i {
+	padding: 0 5px !important;
 }

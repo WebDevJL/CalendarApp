@@ -1,26 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 	<meta charset="UTF-8">
 	<title>Calendar App</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.override.css">
 	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<script type="application/javascript" src="js/angular.js"></script>
 </head>
 
 <body>
 	<div class="container-fluid">
-		<div class="row">
+		<div class="row row-no-mg">
 			<div class="col-xs-2 col-no-pad">
 				<header>
 					<span class="brand">Calendar App</span>
 				</header>
-			<div class="col-xs-10"></div>
+			</div>
+			<div class="col-xs-10 col-no-pad">
+				<span class="menu-item">
+					<i class="fa fa-calendar fa-2x" title="View Calendar"></i>
+				</span>
+				<span class="menu-item">
+					<i class="fa fa-list fa-2x" title="Manage day types"></i>
+				</span>
+				<span class="menu-item">
+					<i class="fa fa-cog fa-2x" title="Settings"></i>
+				</span>
+				<span class="menu-item">
+					<i class="fa fa-floppy-o fa-2x" title="Save my data"></i>
+				</span>
+			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-12">
 				<div id="content">
+					<div id="calendar" ng-app="CalendarApp" ng-controller="CalendarController"></div>
+					<div id="dayTypes" ng-app="CalendarApp" ng-controller="DayTypeController"></div>
+					<div id="settings" ng-app="CalendarApp" ng-controller="SettingsController"></div>
+					<div id="saveData" ng-app="CalendarApp" ng-controller="SaveMyDataController"></div>
 				</div>
 			</div>
 		</div>
