@@ -1,0 +1,35 @@
+﻿var calendarApp = {
+  "dayTypes":[
+    {
+      "id":1,
+      "name":"Jour travaillé"
+    },
+    {
+      "id":2,
+      "name":"CP"
+    },
+    {
+      "id":3,
+      "name":"Jour off"
+    }
+  ],
+  "years":[
+    {
+      "id":2013,
+      "months":[
+        {
+          "id":1,
+          "name":"January",
+          "days":[
+            {
+              "events":[
+
+              ],
+              "dayType":0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

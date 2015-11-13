@@ -1,0 +1,7 @@
+header {
+	line-height: 40px;
+	background-color: #cef;
+}
+header.brand {
+		padding-left: 10px;
+}
