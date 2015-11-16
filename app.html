@@ -8,7 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.override.css">
 	<link rel="stylesheet" type="text/css" href="css/app.css">
-	<script type="application/javascript" src="js/angular.js"></script>
 </head>
 
 <body>
@@ -34,22 +33,25 @@
 				</span>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row row-no-mg">
 			<div class="col-sm-12">
 				<div id="content">
-					<div id="calendar" ng-app="CalendarApp" ng-controller="CalendarController"></div>
-					<div id="dayTypes" ng-app="CalendarApp" ng-controller="DayTypeController"></div>
-					<div id="settings" ng-app="CalendarApp" ng-controller="SettingsController"></div>
-					<div id="saveData" ng-app="CalendarApp" ng-controller="SaveMyDataController"></div>
+					<div class="module" id="calendar">Calendar</div>
+					<div class="module" id="dayTypes">Day Types</div>
+					<div class="module" id="settings">Settings</div>
+					<div class="module" id="saveData">Save my Data</div>
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<footer>Powered by Bootstrap</footer>
+		<div class="row row-no-mg">
+			<div class="col-sm-12 col-no-pad">
+				<footer>Powered by Bootstrap</footer>
+			</div>
 		</div>
 	</div>
 	<script type="application/javascript" src="json/data.json"></script>
 	<script type="application/javascript" src="js/localforage.js"></script>
+	<script type="application/javascript" src="js/helper.js"></script>
 	<script type="application/javascript" src="js/app.js"></script>
 </body>
 

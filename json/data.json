@@ -1,35 +1,10 @@
-﻿var calendarApp = {
-  "dayTypes":[
-    {
-      "id":1,
-      "name":"Jour travaillé"
-    },
-    {
-      "id":2,
-      "name":"CP"
-    },
-    {
-      "id":3,
-      "name":"Jour off"
-    }
-  ],
-  "years":[
-    {
-      "id":2013,
-      "months":[
-        {
-          "id":1,
-          "name":"January",
-          "days":[
-            {
-              "events":[
-
-              ],
-              "dayType":0
-            }
-          ]
-        }
-      ]
-    }
-  ]
+﻿var calendarAppDefault = {
+  "dayTypes":[],
+  "years":[],
+  "settings": {
+  	"defaultModule":"dayTypes",
+    "savedFilename": "myCalendar.json",
+    "startDate": "2013-10-14",
+    "years": []
+  }
 }

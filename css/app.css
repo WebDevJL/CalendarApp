@@ -8,3 +8,23 @@ header.brand {
 .menu-item > i {
 	padding: 0 5px !important;
 }
+#content > .module {
+	display: none;
+}
+
+#calendar {
+	padding: 10px;
+	background-color: #FEA;
+}
+#dayTypes {
+	padding: 10px;
+	background-color: #EFA;
+}
+#settings {
+	padding: 10px;
+	background-color: #EAF;
+}
+#saveData {
+	padding: 10px;
+	background-color: #AAA;
+}
